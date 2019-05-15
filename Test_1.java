@@ -8,4 +8,12 @@ public class Test_1{
   public void setTestName(String testName){
       this.testName=testName;
   }
+  
+  public int getTestNumber(){
+      return testNumber;
+  }
+  
+  public String getTestName(){
+      return testName;
+  }
 }
